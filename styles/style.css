@@ -1,0 +1,115 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:wght@600&display=swap');
+
+/*Genral setup*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    background-color: var(--body-color);
+    color: var(--text-color);
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+/* CSS Variables*/
+:root {
+    --header-height: 3.5rem;
+    /*Colors*/
+    --first-color: hsl(195, 100%, 30%);
+    --gradient-color: linear-gradient(90deg,
+            hsl(210, 55%, 20%),
+            hsl(192, 62%, 25%));
+    --title-color: hsl(210, 52%, 20%);
+    --text-color: hsl(210, 24%, 15%);
+    --white-color: #fff;
+    --body-color: hsl(210, 55%, 85%);
+
+    /*Fonts*/
+
+    --body-font: 'Cabin', sans-serif;
+    --second-font: 'Playfair Display', serif;
+    --biggest-font-size: 2.25rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+
+    /* Font weight */
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /*Z-index*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+
+/*Responsive typography*/
+@media screen and (min-width: 1024px) {
+    :root {
+      --biggest-font-size: 4rem;
+      --normal-font-size: 1rem;
+      --small-font-size: .875rem;
+    }
+  }
+
+  /* REUSABLE CSS CLASSES */
+.container {
+    max-width: 1120px;
+    margin-inline: 1.5rem;
+  }
+  
+  .main {
+    overflow: hidden; /* For animation */
+  }
+  
+
+  /* HEADER & NAV */
+
+
+/* Navigation for mobile devices */
+
+
+/* Show menu */
+
+
+/* Change background header */
+
+
+/*HOME*/
+
+
+/*BREAKPOINTS*/
+/* For small devices */
+
+
+/* For taller devices */
+
+
+/* For medium devices */
+
+
+/* For large devices */
+
+
+/* For 2K resolutions (2048 x 1152) */
+
+  
