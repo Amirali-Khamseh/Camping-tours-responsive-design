@@ -273,6 +273,7 @@ img {
     .home-title {
         font-size: 2rem;
     }
+ 
 }
 
 /*For larger devices than 305*/
@@ -386,12 +387,7 @@ img {
     }
 
 
-    .home-data {
-
-
-        transform: translateY(-8rem);
-        transform: translateX(-9rem);
-    }
+ 
 
     .home-container {
         height: 100vh;
